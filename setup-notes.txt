@@ -1,0 +1,42 @@
+# Spring Boot Ecommerce Project Setup Notes
+
+Project Name: ecommerce
+Group ID: com.blakeschmitt
+Artifact ID: ecommerce
+Packaging: JAR
+Java Version: 17
+Spring Boot Version: 3.5.3
+
+========================
+✅ Selected Dependencies
+========================
+- Spring Web
+- Spring Data JPA
+- Spring Security
+- H2 Database
+- Lombok
+- Validation
+- Spring Boot DevTools
+
+========================
+📦 Project Structure
+========================
+Base package: com.blakeschmitt.ecommerce
+Default port: 8080
+
+Run with:
+./mvnw spring-boot:run
+
+========================
+📁 IDE Setup
+========================
+- Open project in IntelliJ, VSCode, or Eclipse
+- Enable annotation processing for Lombok
+- Use Postman or curl to test REST APIs
+
+========================
+🛠️ GitHub Setup
+========================
+- Repo: github.com/blake2731/ecommerce-java-springboot
+- Branch: main
+- Initial commit: "Initial Spring Boot scaffold with dependencies"
